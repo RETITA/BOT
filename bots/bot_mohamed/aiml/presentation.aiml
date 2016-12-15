@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category> 
+    <pattern> JE M'APPELLE * </pattern> 
+    <template>
+      <condition nam="genre" value="male">
+      Wallah j'appelerai pas mon fils <set name="nom_User"> <star/> </set></condition>
+      <condition nam="gendre" value="male">
+      MDR... j'appelerai jamais ma fille <set name="nom_User"> <star/> </set></condition>
+    </template> 
+  </category>
+   <category>
+    <pattern> Mon nom est * </pattern>
+    <template>
+      <srai> JE M'APPELLE <star/> </srai>
+    </template>
+  <category>
+    <pattern>QUEL EST VOTRE NOM</pattern>
+    <template>Moi c'est mamadou</template>
+  </category>
+  <category>
+    <pattern>Comment t'appelles-tu</pattern>
+    <template>
+      <srai>Quel est votre nom</srai>
+    </template>
+  </category>
+   <category>
+    <pattern>C'est quoi ton nom</pattern>
+    <template>
+      <srai>Quel est votre nom</srai>
+    </template>
+   </category>
+    <category>
+    <pattern>Quelle est ta couleur préférée</pattern>
+    <template>Noir et alors?!Qu'est ce que ça peut te faire ? </template>
+    </category>
+    <category> 
+      <pattern> J'AIME * </pattern> 
+      <template>
+	<think><set name="user_like"><star/></set></think>
+	<condition name="user_like" value="les voitures">
+	Moi aussi je kiff trop <star/>, surtout les Mustangs</condition>
+	<condition name="user_like" value="les femmes">
+	  AH toi aussi tu aimes <star/>. Moi je préfère les latinas , un truc de dingue.Et toi tu préfères quelle origine?!
+	</condition>
+      </template> 
+    </category> 
+</aiml>

@@ -1,0 +1,2 @@
+0,QU'EST-CE QU'IL Y A DANS LE MAGASIN *,*,*,<think><set name="magasin_name"><star/></set></think>#Newline<condition name="magasin_name" value="A">#NewlineVêtements pour FEMME.</condition>#Newline<condition name="magasin_name" value="B">#NewlineVêtements pour HOMME.#Newline</condition>#Newline<condition name="magasin_name" value="C">#NewlineDésolé mais ce magasin est vide.#Newline</condition>,test.aiml
+0,QU'EST CE QU'IL Y A ICI?,*,*,rien de spé,test.aiml

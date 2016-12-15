@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>Qu'est-ce qu'il y a dans le magasin *</pattern>
+<template>
+<think><set name="magasin_name"><star/></set></think>
+<condition name="magasin_name" value="A">
+Vêtements pour FEMME.</condition>
+<condition name="magasin_name" value="B">
+Vêtements pour HOMME.
+</condition>
+<condition name="magasin_name" value="C">
+Désolé mais ce magasin est vide.
+</condition>
+</template>
+</category>
+<category>
+<pattern>Qu'est ce qu'il y a ici</pattern>
+<template>rien de spé</template>
+</category>
+</aiml>

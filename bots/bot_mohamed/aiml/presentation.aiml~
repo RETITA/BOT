@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  		 <category>
+     <pattern>QUEL EST VOTRE NOM</pattern>
+     <template><![CDATA[Mon nom est <bot name="name"/>.]]></template>
+   </category>
+   <category>
+     <pattern>Comment t'appelles-tu</pattern>
+     <template>
+       <srai>Quel est votre nom</srai>
+     </template>
+   </category>
+</aiml>

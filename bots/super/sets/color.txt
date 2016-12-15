@@ -1,0 +1,13 @@
+Blanc
+Bleu
+Gris
+Jaune
+Magenta
+Marron
+Noir
+Orange
+Rose
+Rouge
+Turquoise
+Vert
+Violet

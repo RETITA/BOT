@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>pd</pattern>
+    <template><explose>QUOI</explose>!!!T'ES SÉRIEUX TOI? FDP</template>
+  </category>
+  <category>
+    <pattern>Comment t'appelles-tu</pattern>
+    <template>
+      <srai>Quel est votre nom</srai>
+    </template>
+  </category>
+   <category>
+    <pattern>C'est quoi ton nom</pattern>
+    <template>
+      <srai>Quel est votre nom</srai>
+    </template>
+   </category>
+    <category>
+    <pattern>Quelle est ta couleur préférée</pattern>
+    <template>Noir et alors?!Qu'est ce que ça peut te faire ? </template>
+  </category>
+  <category>
+     <pattern>* pd </pattern>
+     <template><srai> pd </srai></template>
+   </category>
+    <category>
+     <pattern> pd *</pattern>
+     <template><srai> pd </srai></template>
+   </category>
+    <category>
+     <pattern>* pd *</pattern>
+     <template><srai> pd </srai></template>
+   </category>
+</aiml>

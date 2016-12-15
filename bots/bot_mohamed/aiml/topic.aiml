@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+   <category>
+      <pattern>parlons de jeux</pattern>
+      <template>oue j'aime bien les<set name = "topic">jeux</set></template>  
+   </category>
+   
+   <topic name = "jeux">
+      <category>
+         <pattern> je joue bcp </pattern>
+         <template>tu joues à quel jeu en ce moment?</template>
+      </category>
+      
+      <category>
+         <pattern> j'aime bien gta </pattern>
+         <template>j'aimerai bien tester la version en ligne</template>
+      </category>
+    </topic>
+
+
+</aiml>
