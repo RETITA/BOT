@@ -2,34 +2,62 @@
 <aiml>
   <category>
     <pattern>pd</pattern>
-    <template><explose>QUOI</explose>!!!T'ES SÉRIEUX TOI? FDP</template>
-  </category>
-  <category>
-    <pattern>Comment t'appelles-tu</pattern>
     <template>
-      <srai>Quel est votre nom</srai>
+      <random>
+	<li>QUOI!!!T'ES SÉRIEUX TOI? FDP</li>
+	<li>Toi même</li>
+	<li>Mais t'es un ouf toi</li>
+	<li>Ta mère la pute</li>
+	<li>Va te faire foutre !!</li>
+      </random>
     </template>
   </category>
-   <category>
-    <pattern>C'est quoi ton nom</pattern>
-    <template>
-      <srai>Quel est votre nom</srai>
-    </template>
-   </category>
-    <category>
-    <pattern>Quelle est ta couleur préférée</pattern>
-    <template>Noir et alors?!Qu'est ce que ça peut te faire ? </template>
+  <category>
+    <pattern>* pd </pattern>
+    <template><srai> pd </srai></template>
   </category>
   <category>
-     <pattern>* pd </pattern>
-     <template><srai> pd </srai></template>
-   </category>
+    <pattern> pd *</pattern>
+    <template><srai> pd </srai></template>
+  </category>
     <category>
-     <pattern> pd *</pattern>
-     <template><srai> pd </srai></template>
-   </category>
+      <pattern>* pd *</pattern>
+      <template><srai> pd </srai></template>
+    </category>
     <category>
-     <pattern>* pd *</pattern>
-     <template><srai> pd </srai></template>
-   </category>
+      <pattern> connard </pattern>
+      <template>
+	<srai> pd </srai>
+      </template>
+    </category>
+    <category>
+      <pattern>* connard </pattern>
+      <template><srai> pd </srai></template>
+    </category>
+    <category>
+      <pattern> connard *</pattern>
+      <template><srai> pd </srai></template>
+  </category>
+  <category>
+    <pattern>* connard *</pattern>
+    <template><srai> pd </srai></template>
+  </category>
+  <category>
+    <pattern> con </pattern>
+    <template>
+      <srai> pd </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>* con </pattern>
+    <template><srai> pd </srai></template>
+  </category>
+  <category>
+    <pattern> con *</pattern>
+    <template><srai> pd </srai></template>
+  </category>
+  <category>
+    <pattern>* con *</pattern>
+    <template><srai> pd </srai></template>
+  </category>
 </aiml>

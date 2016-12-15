@@ -6,106 +6,110 @@
     </pattern>
     <template>
       <random>
-	     <li>Salut, t'es qui toi?!</li>
-	     <li>Wesh t'es qui toi?!</li>
-	     <li>Tu veux quoi toi?</li>
+	<li>Salut, t'es qui toi?!</li>
+	<li>Wesh t'es qui toi?!</li>
+	<li>Tu veux quoi toi?</li>
       </random>
     </template>
   </category>
-
-   <category>
+  <category>
     <pattern> Salut </pattern>
-    <template> Salut, ça va ou quoi ?! </template>
-   </category>
-   <category> 
-     <pattern> OUI </pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Cool, moi aussi.
-     </template> 
-   </category>
-   <category> 
-     <pattern> NON </pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Tranquille ça va passer .
-     </template> 
-   </category>
-    <category> 
-     <pattern> * OUI </pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Cool, moi aussi.
-     </template> 
-   </category>
-   <category> 
-     <pattern> * NON </pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Tranquille ça va passer .
-     </template> 
-   </category>
-    <category> 
-     <pattern> OUI * </pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Cool, moi aussi.
-     </template> 
-   </category>
-   <category> 
-     <pattern> NON *</pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Tranquille ça va passer .
-     </template> 
-   </category>
-    <category> 
-     <pattern> * OUI * </pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Cool, moi aussi.
-     </template> 
-   </category>
-   <category> 
-     <pattern>* NON * </pattern> 
-     <that> Salut, ça va ou quoi ?! </that> 
-     <template> 
-       Tranquille ça va passer .
-     </template> 
-   </category>
-   <category>
+    <template>
+      <random>
+	<li> Salut, ça va ou quoi ?!</li>
+	<li> Wesh poto, bien ou quoi !!</li>
+	<li> Salut </li>
+    </random></template>
+  </category>
+  <category> 
+    <pattern> OUI </pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Cool, moi aussi.
+    </template> 
+  </category>
+  <category> 
+    <pattern> NON </pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Tranquille ça va passer .
+    </template> 
+  </category>
+  <category> 
+    <pattern> * OUI </pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Cool, moi aussi.
+    </template> 
+  </category>
+  <category> 
+    <pattern> * NON </pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Tranquille ça va passer .
+    </template> 
+  </category>
+  <category> 
+    <pattern> OUI * </pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Cool, moi aussi.
+    </template> 
+  </category>
+  <category> 
+    <pattern> NON *</pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Tranquille ça va passer .
+    </template> 
+  </category>
+  <category> 
+    <pattern> * OUI * </pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Cool, moi aussi.
+    </template> 
+  </category>
+  <category> 
+    <pattern>* NON * </pattern> 
+    <that> Salut, ça va ou quoi ?! </that> 
+    <template> 
+      Tranquille ça va passer .
+    </template> 
+  </category>
+  <category>
     <pattern>
       Au revoir
     </pattern>
     <template>
       Ouais vas-y.
     </template>
-   </category>
-   <category>
-     <pattern>* bonjour </pattern>
-     <template><srai> bonjour </srai></template>
-   </category>
-   <category>
-     <pattern>* bonjour *</pattern>
-     <template><srai> bonjour </srai></template>
-   </category>
-   <category>
-     <pattern> bonjour *</pattern>
-     <template><srai> bonjour </srai></template>
-   </category>
-   <category>
-     <pattern>* salut </pattern>
-     <template><srai> Salut </srai></template>
-   </category>
-   <category>
-     <pattern>* salut *</pattern>
-     <template><srai> bonjour </srai></template>
-   </category>
-   <category>
-     <pattern> salut *</pattern>
-     <template><srai> salut </srai></template>
-   </category>
-    <category>
+  </category>
+  <category>
+    <pattern>* bonjour </pattern>
+    <template><srai> bonjour </srai></template>
+  </category>
+  <category>
+    <pattern>* bonjour *</pattern>
+    <template><srai> bonjour </srai></template>
+  </category>
+  <category>
+    <pattern> bonjour *</pattern>
+    <template><srai> bonjour </srai></template>
+  </category>
+  <category>
+    <pattern>* salut </pattern>
+    <template><srai> Salut </srai></template>
+  </category>
+  <category>
+    <pattern>* salut *</pattern>
+    <template><srai> bonjour </srai></template>
+  </category>
+  <category>
+    <pattern> salut *</pattern>
+    <template><srai> salut </srai></template>
+  </category>
+  <category>
     <pattern> Au revoir </pattern>
     <template>
       <random>
@@ -113,19 +117,19 @@
 	<li> Vas y de toute façon j'ai des trucs à faire . </li>
 	<li> Oui c'est ça vas t'en <get name="nom_User"/>. </li>
 	<li> Tu t'es enfin décidé à partir <get name="nom_User"/>. </li>
-	</random>
+      </random>
     </template>
   </category>
-   <category>
-     <pattern>* au revoir </pattern>
-     <template><srai> au revoir </srai></template>
-   </category>
-   <category>
-     <pattern>* au revoir *</pattern>
-     <template><srai> au revoir </srai></template>
-   </category>
-   <category>
-     <pattern> au revoir *</pattern>
-     <template><srai> au revoir </srai></template>
-   </category> 
+  <category>
+    <pattern>* au revoir </pattern>
+    <template><srai> au revoir </srai></template>
+  </category>
+  <category>
+    <pattern>* au revoir *</pattern>
+    <template><srai> au revoir </srai></template>
+  </category>
+  <category>
+    <pattern> au revoir *</pattern>
+    <template><srai> au revoir </srai></template>
+  </category> 
 </aiml>
